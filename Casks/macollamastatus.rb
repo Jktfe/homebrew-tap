@@ -4,10 +4,10 @@ cask "macollamastatus" do
 
   url "https://github.com/Jktfe/macOllamaStatus/releases/download/v#{version}/olusage-v#{version}.zip"
   name "macOllamaStatus"
-  desc "Menu bar widget showing live Ollama Cloud usage, with warnings before you run out"
+  desc "Menu bar widget showing live Ollama Cloud usage, warning before you run out"
   homepage "https://github.com/Jktfe/macOllamaStatus"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "olusage.app"
 
