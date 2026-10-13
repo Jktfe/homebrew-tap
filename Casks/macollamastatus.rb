@@ -1,6 +1,6 @@
 cask "macollamastatus" do
-  version "0.1.0"
-  sha256 "9d24fa74706703dbbf8f666205801e157f116413c833303abd1600b4e2acf9b0"
+  version "0.2.0"
+  sha256 "2fe7d6bbd2dc347eb80487520cb17baa33843c175f4960f7b6a831723672aff1"
 
   url "https://github.com/Jktfe/macOllamaStatus/releases/download/v#{version}/olusage-v#{version}.zip"
   name "macOllamaStatus"
